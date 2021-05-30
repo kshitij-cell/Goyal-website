@@ -1,0 +1,937 @@
+* {
+    margin: 0px;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
+}
+
+* a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* h1,
+* h2,
+* h3,
+* h4,
+* h5 {
+    font-weight: normal;
+}
+
+* a:hover {
+    color: rgb(92, 184, 236);
+    transition: 0.1s ease-in-out;
+}
+
+header {
+    background-color: rgb(250, 101, 1);
+}
+
+div#title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(250, 101, 1);
+    padding: 5% 20%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+div#menu1,
+div#lite {
+    text-align: center;
+}
+
+div#plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: whitesmoke;
+    margin: 5% 3% 1% 3%;
+    flex-wrap: wrap;
+}
+
+div#plans div.dis {
+    width: 371px;
+}
+
+div#lite {
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    margin: 5% 3% 1% 3%;
+}
+
+div#plans div.dis,
+div#lite div#this {
+    background-color: rgb(250, 101, 1);
+    margin: 1%;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 5% auto;
+}
+
+div.rad div#lite div#this {
+    width: 30%;
+    margin: 10px auto;
+}
+
+div#lite div#this p.text img {
+    width: 10px;
+    height: 10px;
+}
+
+div#menu1 p,
+div#menu2 div.ran p {
+    font-style: italic;
+    text-align: left;
+    color: rgb(155, 141, 141);
+    font-size: small;
+}
+
+div#menu1 h3 {
+    font-weight: 400;
+}
+
+div#plans div.dis p,
+div#lite div#this p {
+    text-align: left;
+    font-style: normal;
+    margin-top: 1%;
+    color: white;
+}
+
+div#plans h1,
+div#lite h1 {
+    color: rgb(250, 101, 1);
+    background-color: white;
+    border-radius: 10px;
+    margin: 2% 20%;
+    font-weight: 550;
+    font-size: 1.4em;
+    padding: 5%;
+    text-transform: uppercase;
+}
+
+div#plans div.dis p.text,
+div#lite div#this p.text {
+    font-size: 200;
+    color: white;
+    font-weight: bolder;
+}
+
+div#plans h3,
+div#lite h3 {
+    font-size: 12px;
+    margin: 7% 2%;
+    font-weight: 550;
+}
+
+div#plans div.dis p span img {
+    width: 15px;
+    height: 15px;
+}
+
+div#menu1 h1,
+div#lite h1,
+h3#one {
+    color: rgb(250, 101, 1);
+    text-transform: uppercase;
+    margin-bottom: 3%;
+}
+
+div#menu1 img {
+    width: 30%;
+}
+
+div#menu1 h3,
+div#lite h3 {
+    font-weight: 500;
+    margin: 3% 3% 5% 3%;
+    justify-content: center;
+}
+
+div#menu1 label span {
+    background-color: rgb(250, 101, 1);
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    padding: 0.5% 5%;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    top: 14px;
+}
+
+div#menu1 div#btn {
+    text-align: center;
+    margin: auto;
+}
+
+label {
+    cursor: pointer;
+}
+
+div#cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#cont div.inside {
+    width: 40%;
+    margin: 5%;
+}
+
+div#cont div.inside h3 {
+    text-transform: uppercase;
+    color: rgb(155, 141, 141);
+}
+
+div#cont div.inside p {
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-style: normal;
+}
+
+h3.view {
+    font-size: large;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+div#pricing {
+    background-color: rgb(250, 101, 1);
+    text-align: center;
+    margin-top: 0px;
+    padding: 2%;
+}
+
+div#pricing h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+div#pricing p {
+    color: white;
+    letter-spacing: 1px;
+    padding: 1% 2%;
+}
+
+div#table {
+    background-color: rgb(29, 50, 77);
+    margin-top: 29px;
+}
+
+div#table div#compare {
+    text-align: center;
+    padding-top: 3%;
+}
+
+div#table div#compare span {
+    color: rgb(250, 101, 1);
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+div#table div#compare p {
+    color: white;
+    font-size: 20px;
+    padding-top: 1%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+div#table div#tabledata {
+    padding: 2% 10%;
+}
+
+div#table div#tabledata tr#top th {
+    padding: 1% 2%;
+    font-size: 25px;
+    text-align: left;
+    background-color: rgb(250, 101, 1);
+    text-transform: capitalize;
+    color: white;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    padding: 0.7%;
+    padding-left: 2%;
+}
+
+table tr td#price {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+td span.tick {
+    background-color: none;
+    color: rgb(250, 101, 1);
+    border-collapse: collapse;
+    margin: 2%;
+}
+
+td.middle {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div#table div#tabledata tr:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+div#table div#tabledata tr:nth-child(even) {
+    background-color: rgb(235, 235, 235);
+}
+
+div#faq {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+div#faq p#pcp {
+    color: rgb(203, 203, 202);
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 3% 0% 1%;
+    text-align: center;
+    font-style: normal;
+}
+
+div#faq h2 {
+    text-transform: capitalize;
+    font-size: 30px;
+    color: rgb(250, 101, 1);
+    letter-spacing: 1px;
+}
+
+div#credit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#credit div.debit {
+    width: 221px;
+    margin: 5%;
+}
+
+div#credit div.debit h4 {
+    padding-bottom: 4%;
+}
+
+div#credit div.debit p {
+    text-align: left;
+    padding-left: 2%;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-style: normal;
+    color: rgb(155, 141, 141);
+    font-size: small;
+}
+
+div#menu2 {
+    background-color: white;
+    text-align: center;
+}
+
+div#menu2 h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: rgb(250, 101, 1);
+    text-align: center;
+}
+
+div#menu2 p#p {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-style: normal;
+    color: black;
+}
+
+div#menu2 p span {
+    color: rgb(250, 101, 1);
+}
+
+div#menu2 div#range img {
+    width: 30%;
+    padding: 4% 0% 0% 0%;
+}
+
+div#menu2 div#choose {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 10%;
+}
+
+div#button,
+div#takes {
+    width: 50%;
+}
+
+div#button label {
+    color: rgb(155, 141, 141);
+}
+
+div#button h3 {
+    padding: 5% 0% 0% 0%;
+}
+
+div#menu2 div#choose div#button label {
+    padding-right: 10%;
+}
+
+div#takes h3 {
+    text-transform: capitalize;
+    padding: 7% 0% 0% 0%;
+}
+
+div#takes input {
+    width: 45%;
+    background-color: rgb(250, 101, 1);
+    border-radius: 4px;
+    border-style: none;
+    padding: 1%;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 1%;
+}
+
+div#up {
+    text-align: center;
+    background-color: rgb(233, 251, 253);
+    padding: 5%;
+}
+
+div#det {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 5% 0% 5%;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+div#det div img {
+    width: 206px;
+}
+
+div#up span,
+div#up h1 {
+    color: rgb(250, 101, 1);
+    margin-bottom: 5%;
+}
+
+div#menu2 div.ran div#plans {
+    margin: 2% 0%;
+    padding: 0%;
+}
+
+div#menu2 div.ran div#plans div.dis {
+    margin: 5%;
+}
+
+div#menu2 div.ran p {
+    margin: 0% 12%;
+}
+
+div#menu3 h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(250, 101, 1);
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+div#menu3 h4 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+div#menu3 div#uptext {
+    margin: 1% auto;
+    width: 40%;
+    /* margin: 1% 35% 3% 35%; */
+    padding: 1%;
+}
+
+div#menu3 div#uptext p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+div#menu3 div.cert div.tv {
+    background-color: rgb(250, 101, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2% 5%;
+    padding: 2%;
+    width: 20%;
+    line-height: 35px;
+}
+
+div#menu3 div.cert {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10% 0px;
+}
+
+div#menu3 div.cert div.tv h3 span {
+    margin: 1% 8%;
+}
+
+div#menu3 div.cert div.tv h3 {
+    color: rgb(250, 101, 1);
+    background-color: white;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+div#menu3 div.cert img {
+    width: 24em;
+    height: 24em;
+}
+
+div#menu3 div.piracy img {
+    width: 24em;
+    height: 24em;
+}
+
+div#menu3 div.verification img {
+    width: 24em;
+    height: 24em;
+}
+
+div#menu3 div.piracy div.anti {
+    background-color: rgb(250, 101, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2% 5%;
+    padding: 2%;
+    width: 20%;
+    line-height: 35px;
+}
+
+div#menu3 div.piracy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10% 0px;
+}
+
+div#menu3 div.piracy div.anti h3 span {
+    margin: 1% 8%;
+}
+
+div#menu3 div.piracy div.anti h3 {
+    color: rgb(250, 101, 1);
+    background-color: white;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+div#menu3 div.verification div.learner {
+    background-color: rgb(250, 101, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2% 5%;
+    padding: 2%;
+    width: 20%;
+    line-height: 35px;
+}
+
+div#menu3 div.verification {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10% 0px;
+}
+
+div#menu3 div.verification div.learner h3 span {
+    margin: 1% 8%;
+}
+
+div#menu3 div.verification div.learner h3 {
+    color: rgb(250, 101, 1);
+    background-color: white;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+div.topbox {
+    background-color: white;
+    border-radius: 7px;
+    border-style: none;
+    text-align: center;
+}
+
+div.topbox p {
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: rgb(250, 101, 1);
+}
+
+div#menu3 h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: left;
+    padding: 2%;
+}
+
+p#black {
+    color: white;
+}
+
+div#now h3#buy {
+    background-color: rgb(250, 101, 1);
+    color: white;
+    text-transform: uppercase;
+    text-align: end;
+    padding-top: 1%;
+}
+
+div#lite {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.rad div#lite div#this {
+    width: 30%;
+    margin: 0em;
+}
+
+#one {
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1367px) {
+    div#plans div.dis,
+    div#lite div#this {
+        margin: 10px;
+        border-radius: 4px;
+        padding: 0.5%;
+    }
+    div#plans {
+        margin: 5% 1% 1% 1%;
+    }
+}
+
+@media only screen and (max-width:1240px) {
+    div#plans {
+        justify-content: center;
+    }
+    div#menu3 div.cert div.tv {
+        margin: 12px;
+        padding: 2%;
+        width: 300px;
+    }
+    div#menu3 div.piracy div.anti {
+        margin: 12px;
+        padding: 2%;
+        width: 300px;
+    }
+    div#menu3 div.verification div.learner {
+        margin: 12px;
+        padding: 2%;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:1156px) {
+    div#pricing h1 {
+        font-size: 28px;
+    }
+    div#pricing p {
+        width: 80%;
+        margin: auto;
+        line-height: 1.3em;
+    }
+}
+
+@media only screen and (max-width:1151px) {
+    div#table div#compare span {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    div#table div#tabledata {
+        padding: 0px;
+        margin: 2% auto;
+    }
+    table {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:880px) {
+    div#title {
+        padding: 5% 10%;
+    }
+    div#table div#tabledata tr#top th {
+        padding: 1% 2%;
+        font-size: 21px;
+        text-align: center;
+        background-color: rgb(250, 101, 1);
+        text-transform: capitalize;
+        color: white;
+    }
+    div.rad div#lite div#this {
+        width: 270px;
+        /* margin: 0em; */
+    }
+    div.rad div#lite div#this img.coin {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:760px) {
+    div#menu1 img {
+        width: 16em;
+    }
+    div#menu2 div#range img {
+        width: 16em;
+    }
+    div#menu1 label span {
+        padding: 1% 5%;
+    }
+    div#menu3 div.cert {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    div#menu3 div.piracy {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    div#menu3 div.verification {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    div#table div#compare span {
+        font-size: 25px;
+    }
+    div#table div#compare p {
+        font-size: 17px;
+        width: 65%;
+        margin: auto;
+    }
+    div#menu2 div#choose {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0% 10%;
+    }
+    div#button,
+    div#takes {
+        width: 70%;
+    }
+    div#menu3 div#uptext {
+        width: 63%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    div#title h2 {
+        font-size: 19px;
+    }
+    div#menu1 h1 {
+        font-size: 25px;
+    }
+    div#menu2 h2 {
+        font-size: 25px;
+    }
+    div#menu1 h3 {
+        font-size: 15px;
+        width: 70%;
+        margin: 3% auto 5% auto;
+    }
+    div#menu2 p#p {
+        font-size: 15px;
+        width: 70%;
+        margin: 3% auto 5% auto;
+    }
+    div#table div#tabledata {
+        padding: 0px;
+        margin: auto;
+    }
+    table {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    div#menu3 h4 {
+        font-size: 28px;
+        width: 80%;
+        margin: auto;
+    }
+    div#title {
+        flex-direction: column;
+    }
+    div#title h2 {
+        margin: 7px 0px;
+    }
+    div#menu1 img {
+        width: 14em;
+    }
+    div#menu2 div#range img {
+        width: 14em;
+    }
+    div#table div#compare p {
+        width: 85%;
+    }
+    table,
+    th,
+    td {
+        padding: 0.7% 0px 0.7% 3px;
+        /* padding-left: 0px; */
+    }
+    div#table div#tabledata tr#top th {
+        padding: 3px;
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+        background-color: rgb(250, 101, 1);
+        text-transform: capitalize;
+        color: white;
+    }
+    div#plans div.dis h1 {
+        font-size: 1.3em;
+        padding: 12px;
+        width: 40%;
+    }
+    div#plans h1,
+    div#lite h1 {
+        margin: 2% auto;
+    }
+    div#det {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5% 5% 0% 5%;
+        text-transform: uppercase;
+        font-size: small;
+    }
+    div.rad div#lite div#this h1 {
+        margin: 8px auto;
+        padding: 8px;
+        font-size: 16px;
+        width: 47%;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    div#menu1 h3 {
+        width: 90%;
+    }
+    div#menu2 p#p {
+        width: 90%;
+    }
+    div#menu1 img {
+        width: 12em;
+    }
+    div#menu2 div#range img {
+        width: 12em;
+    }
+    table,
+    th,
+    td {
+        font-size: 13px;
+    }
+    div#button,
+    div#takes {
+        width: 90%;
+    }
+    div#plans div.dis h1 {
+        font-size: 1em;
+        padding: 8px;
+        width: 40%;
+    }
+    div#menu3 div.cert img {
+        width: 19em;
+    }
+    div#menu3 div.piracy img {
+        width: 19em;
+    }
+    div#menu3 div.navigation img {
+        width: 19em;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 450ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.left {
+    transform: translateX(-50%);
+}
+
+.right {
+    transform: translateX(50%);
+}
+
+.left,
+.right {
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+    opacity: 0;
+}
+
+.left.appear,
+.right.appear {
+    transform: translateX(0);
+    opacity: 1;
+}

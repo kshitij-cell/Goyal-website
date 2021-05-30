@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+* a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+* h1,
+* h2,
+* h3,
+* h4,
+* h5 {
+    font-weight: normal;
+}
+
+* a:hover {
+    color: rgb(92, 184, 236);
+    transition: 0.1s ease-in-out;
+}
+
+header {
+    background-color: rgb(250, 101, 1);
+}
+
+div#third {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 140px 0px;
+    padding: 30px 7px 20px;
+}
+
+header div#third div {
+    text-transform: uppercase;
+}
+
+header div#third div:last-child {
+    font-weight: bold;
+}
+
+header div#third div:first-child {
+    font-size: 22px;
+}
+
+div#start {
+    background-color: rgb(30, 51, 78);
+}
+
+
+/* div#start
+{
+margin-top: 0px;
+background-color: rgb(30,51,78);
+} */
+
+div#start h3 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+div#start h3 span {
+    color: rgb(250, 101, 1);
+}
+
+div#signup {
+    background-color: rgb(250, 101, 1);
+    background-image: url(../Images/mug.png), url(../Images/cactus.png), url(../Images/vase1.png);
+    background-position: bottom 7% right 16%, bottom 8% left 15%, bottom 4% left 28%;
+    /* background-position-y: , , bottom 4%; */
+    background-repeat: no-repeat;
+}
+
+section {
+    padding: 10% 0px;
+    margin: 0px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section form {
+    background-image: url(../Images/compsign.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 5px;
+    /* height: 557px; */
+    width: 65%;
+    padding: 15px 40px 169px 40px;
+    position: relative;
+    z-index: 4;
+}
+
+section form p input {
+    margin: 5%;
+    padding: 3%;
+    width: 80%;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(250, 101, 1);
+    border-width: 5px;
+}
+
+section form p input::placeholder {
+    color: rgb(250, 101, 1);
+    font-size: 15px;
+    font-style: italic;
+}
+
+section form div#free {
+    text-align: center;
+}
+
+section form p button.click {
+    background-color: rgb(250, 101, 1);
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    margin: 1% auto;
+    padding: 1%;
+    display: block;
+    width: 160px;
+}
+
+*:focus {
+    outline: none;
+}
+
+section form p#account {
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 2%;
+    color: rgb(186, 184, 185);
+    display: flex;
+    justify-content: space-between;
+}
+
+section form p span {
+    color: rgb(250, 101, 1);
+    margin-left: 7%;
+    color: rebeccapurple;
+}
+
+section form p#account span {
+    margin: auto;
+    color: rgb(250, 101, 1);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+section form p {
+    padding: 1%;
+}
+
+@media only screen and (max-width:1200px) {
+    div#signup {
+        background-color: rgb(250, 101, 1);
+        background-image: url(../Images/mug.png), url(../Images/cactus.png), url(../Images/vase1.png);
+        background-position: bottom 7% right 16%, bottom 8% left 9%, bottom 4% left 23%;
+        /* background-position-y: ,,  */
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    section form p button.click {
+        font-size: 24px;
+        padding: 1% 2%;
+        width: 160px;
+    }
+    div#signup {
+        background-size: 6em;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    section form {
+        width: 74%;
+    }
+    section {
+        width: 100%;
+    }
+    div#signup {
+        background-position: bottom 7% right 16%, bottom 6% left 6%, bottom 2% left 21%;
+        /* background-position-y: bottom 7%, bottom 6%, bottom 2%; */
+    }
+}
+
+@media only screen and (max-width:700px) {
+    div#start h3 {
+        font-size: 28px;
+    }
+    section form {
+        padding: 15px 40px 140px 40px;
+    }
+    div#signup {
+        padding-bottom: 36px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    div#signup {
+        background-position: bottom 7% right 9%, bottom 6% left 6%, bottom 2% left 29%;
+        /* background-position-y: , bottom 6%, bottom 2%; */
+    }
+}
+
+@media only screen and (max-width:500px) {
+    div#signup {
+        background-size: 5em;
+    }
+    section form {
+        padding: 15px 20px 140px 20px;
+    }
+    section form {
+        width: 83%;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 650ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}

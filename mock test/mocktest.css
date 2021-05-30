@@ -1,0 +1,548 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* h1,
+* h2,
+* h3,
+* h4,
+* h5 {
+    font-weight: normal;
+}
+
+* a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+* a:hover {
+    color: rgb(92, 184, 236);
+    transition: 0.1s ease-in-out;
+}
+
+div#exam,
+div.soln {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2% 10%;
+}
+
+div#exam img {
+    width: 94px;
+    margin: 4%;
+}
+
+@media only screen and (max-width:400px) {
+    div#exam img {
+        width: 60px;
+        margin: 3%;
+    }
+}
+
+div#txt p {
+    color: rgb(250, 101, 1);
+    text-align: center;
+    font-size: large;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+header {
+    background-color: rgb(250, 101, 1);
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+}
+
+div#second {
+    margin: 60px 0px;
+    padding: 20px 7px 2px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+div#second div.container {
+    width: auto;
+    text-align: left;
+    padding: 0% 10%;
+}
+
+div#second div.container span,
+div#tools span {
+    display: inline-block;
+    padding: 7px 25px;
+    border: 5px solid white;
+    border-radius: 10px;
+    font-size: 1.7em;
+    color: white;
+}
+
+div#second div.onlineedu {
+    transform: translateX(+vw);
+    padding: 0% 5% 0% 0%
+}
+
+div#second h1,
+div#second h1 span,
+div#teaching h3 {
+    color: white;
+}
+
+div#second h4 {
+    margin: 20px 0px 30px 0px;
+    padding: 3px 15px 3px 0px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+div#second h5 {
+    margin-top: 7px;
+    font-weight: normal;
+}
+
+div#second h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:750px) {
+    div#second h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:765px) {
+    div#second div.container span {
+        padding: 2px 3px;
+        border-width: 3px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:677px) {
+    div#second div.container span {
+        border-width: 2px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    div#second {
+        flex-direction: column;
+    }
+    div.onlineedu img {
+        width: 60%;
+        display: flex;
+        margin: auto;
+    }
+}
+
+div#quickly h3 {
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(250, 101, 1);
+    letter-spacing: 1px;
+    padding: 2%;
+}
+
+div#quickly div#uptext {
+    margin: 0% 25% 3% 25%;
+}
+
+div#quickly div#uptext p {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width:700px) {
+    div#quickly h3 {
+        font-size: 30px;
+        padding: 1%;
+    }
+    div#quickly div#uptext p {
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    div#quickly h3 {
+        font-size: 23px;
+        padding: 1%;
+    }
+    div#quickly div#uptext p {
+        line-height: 15px;
+        font-size: 12px;
+    }
+}
+
+div#template {
+    padding: 2% 8%;
+    margin: 0% 7% 0% 15%;
+}
+
+div#template img {
+    height: 90%;
+    width: 90%;
+}
+
+div#quickly div#create,
+div#make {
+    text-align: center;
+}
+
+div#quickly div#create button,
+div#make button {
+    background-color: rgb(250, 101, 1);
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 1%;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: none;
+    margin-bottom: 1%;
+}
+
+div#cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1% 3%;
+}
+
+div#back,
+div#feature {
+    background-color: rgb(233, 251, 253);
+}
+
+div#cont div.cmt {
+    margin: 1% 5%;
+}
+
+div#back span {
+    color: rgb(250, 101, 1);
+    font-size: 500%;
+}
+
+div#back div.p,
+div#feature h2 {
+    color: rgb(250, 101, 1);
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+}
+
+div.p span {
+    margin-top: -38px;
+}
+
+span.mar {
+    margin-top: -23px;
+    font-family: sans-serif;
+}
+
+div.flx {
+    display: flex;
+    padding: 3% 1%;
+}
+
+div.cmt p {
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+div.cmt div.flx h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+div.cmt img {
+    margin-left: 15%;
+}
+
+@media only screen and (max-width:1400px) {
+    div#cont div.cmt {
+        margin: 1%;
+        width: 330px;
+    }
+    div#cont {
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:741px) {
+    div#cont div.cmt {
+        margin: 1%;
+        width: 80%;
+    }
+    div.cmt img {
+        /* margin-left: 15%; */
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:467px) {
+    div.cmt div.flx h2 {
+        font-size: 14px;
+    }
+    div.flx p {
+        font-size: 0.8em;
+    }
+    div#cont div.cmt {
+        width: 95%;
+    }
+}
+
+div#blu {
+    background-color: rgb(13, 31, 53);
+    text-align: center;
+    padding: 7% 12%;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+div.maintain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0%;
+}
+
+div.maintain img {
+    width: 40%;
+    padding: 3%;
+}
+
+div#blu h2 {
+    color: rgb(250, 101, 1);
+}
+
+div#blu p {
+    color: white;
+    text-align: start;
+    margin-left: 5%;
+}
+
+div#blu p#t {
+    text-align: center;
+}
+
+div#blu h2#big {
+    font-size: xx-large;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width:750px) {
+    div.maintain img {
+        width: 35%;
+        padding: 2%;
+    }
+    div#blu {
+        padding: 7% 6%;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+    div#blu p {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    div.maintain {
+        flex-direction: column;
+    }
+    div.maintain img {
+        width: 55%;
+    }
+}
+
+h3#variety {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(250, 101, 1);
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 4%;
+}
+
+div.in {
+    width: 22%;
+    margin: 3%;
+    background-color: white;
+    border: 3px outset rgb(152, 227, 236);
+    border-radius: 5px;
+    padding: 2%;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+div.in div.flx h3 {
+    color: rgb(250, 101, 1);
+    padding: 2%;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+div.in div.flx img {
+    width: 60px;
+    margin: 0% 5%;
+}
+
+@media only screen and (max-width:850px) {
+    div.in {
+        width: 32%;
+        margin: 3%;
+    }
+    div.soln {
+        margin: 2% 5%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    div.in {
+        width: 62%;
+        margin: 8%;
+    }
+}
+
+div.contained {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+}
+
+div.contained img {
+    width: 40%;
+}
+
+div.contained div.demo {
+    padding: 1% 5% 1% 5%;
+    margin-right: 5%;
+}
+
+div.contained div.demo h3 {
+    font-weight: bold;
+    padding-bottom: 5%;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: rgb(250, 101, 1);
+}
+
+div.contained div.demo p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+div.contained div.demo p#grey {
+    padding-bottom: 7%;
+    font-size: 15px;
+    color: rgb(224, 224, 224);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+div.contained div.demo button {
+    background-color: rgb(250, 101, 1);
+    color: white;
+    padding: 2%;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 5% 2%;
+    border-radius: 7px;
+    border-style: none;
+}
+
+@media only screen and (max-width: 820px) {
+    div.contained {
+        flex-direction: column;
+        font-size: 30px;
+    }
+    div.contained img {
+        width: 400px;
+        height: auto;
+        padding: 2%;
+    }
+    div.contained div.demo button {
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    div.contained img {
+        width: 300px;
+        height: auto;
+    }
+    div.contained div.demo h3 {
+        font-size: 20px;
+    }
+    h3#variety {
+        font-size: 30px;
+        padding: 2%;
+    }
+    div.contained div.demo p {
+        line-height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    div.contained img {
+        width: 255px;
+        height: auto;
+    }
+    div.contained div.demo p {
+        line-height: 25px;
+        font-size: 12px;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 450ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.left {
+    transform: translateX(-50%);
+}
+
+.right {
+    transform: translateX(50%);
+}
+
+.left,
+.right {
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+    opacity: 0;
+}
+
+.left.appear,
+.right.appear {
+    transform: translateX(0);
+    opacity: 1;
+}

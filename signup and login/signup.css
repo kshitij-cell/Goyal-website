@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+* h1,
+* h2,
+* h3,
+* h4,
+* h5 {
+    font-weight: normal;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+* a:hover {
+    color: rgb(92, 184, 236);
+    transition: 0.1s ease-in-out;
+}
+
+header {
+    background-color: rgb(250, 101, 1);
+}
+
+div#start {
+    background-color: rgb(30, 51, 78);
+    margin-top: 0px;
+}
+
+div#start h3 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+div#start h3 span {
+    color: rgb(250, 101, 1);
+}
+
+div#container {
+    background-color: rgb(250, 101, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1% 10%;
+}
+
+div#container div#signup {
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    margin: 3%;
+}
+
+div#container div#img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div#container div#img img {
+    width: 60%;
+}
+
+div#signup section section {
+    text-align: left;
+}
+
+div#signup section section h4 {
+    font-size: 25px;
+    color: rgb(250, 101, 1);
+    padding: 4% 0% 0% 3%;
+}
+
+div#signup section section p {
+    font-size: 13px;
+    font-style: italic;
+    padding: 0% 0% 2% 4%;
+}
+
+section form p input {
+    text-transform: capitalize;
+    margin: 5%;
+    padding: 3%;
+    width: 80%;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(250, 101, 1);
+    border-width: 3px;
+}
+
+section form p input::placeholder {
+    color: rgb(247, 217, 205);
+    font-size: 15px;
+    font-style: italic;
+}
+
+section form div#free {
+    text-align: center;
+}
+
+section form div#free button {
+    background-color: rgb(250, 101, 1);
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    margin: 3%;
+    padding: 2%;
+}
+
+*:focus {
+    outline: none;
+}
+
+section form p#account {
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 2%;
+    color: rgb(186, 184, 185);
+}
+
+section form p span {
+    margin-left: 6%;
+    color: rgb(250, 101, 1);
+}
+
+section form p#account span {
+    color: rgb(250, 101, 1);
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 1400px) {
+    div#container {
+        background-color: rgb(250, 101, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    div#container div#img {
+        width: 50%;
+    }
+    div#container div#img img {
+        width: 80%;
+    }
+    div#start h3 {
+        font-size: 31px;
+    }
+    section form div#free button {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {}
+
+@media only screen and (max-width: 900px) {
+    div#container {
+        flex-direction: column-reverse;
+    }
+    div#container div#signup {
+        width: 42%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    div#container div#signup {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    div#container div#img img {
+        width: 350px;
+    }
+    div#container div#img {
+        width: 61%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    div#container div#signup {
+        width: 271px;
+    }
+}
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 650ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}

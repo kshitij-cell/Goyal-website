@@ -1,0 +1,106 @@
+* a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+* a:hover {
+    color: rgb(92, 184, 236);
+    transition: 0.1s ease-in-out;
+}
+
+div#fourth {
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+}
+
+div#fourth h3 {
+    width: 80%;
+    /* width: 70%; */
+    margin: auto;
+    font-weight: normal;
+}
+
+@media only screen and (max-width:360px) {
+    div#fourth h3 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:480px) {
+    div#fourth h3 {
+        font-size: 19px;
+        /* width: 80%; */
+    }
+}
+
+#button {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    border-color: white;
+    border: none;
+}
+
+button#button {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:600px) {
+    #button {
+        padding: 10px;
+    }
+    div.buton h3 span {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    #button {
+        padding: 15px;
+    }
+}
+
+div.buton h3 span {
+    color: rgb(250, 101, 1);
+}
+
+div#third {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 140px 60px;
+    padding: 20px 7px 2px;
+    border-top: 1px solid #fb8a3f;
+}
+
+@media only screen and (max-width:1190px) {
+    div#third {
+        margin: 10px 58px 60px;
+    }
+}
+
+@media only screen and (max-width:976px) {
+    header div#third div {
+        font-size: 15px;
+        margin: 4px 0px;
+    }
+    div#third {
+        flex-direction: column;
+    }
+}
+
+header div#third div {
+    text-transform: uppercase;
+}
+
+header div#third div:last-child {
+    font-weight: bold;
+}
+
+header div#third div:first-child {
+    font-size: 22px;
+}

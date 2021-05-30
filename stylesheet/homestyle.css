@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    /* border-bottom: 4px solid cadetblue; */
+    /* grid-template-rows: auto; */
+}
+
+#option {
+    /* height: 100%; */
+    box-shadow: 3px 1px 7px rgb(206, 124, 43);
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* flex-flow: column; */
+}
+
+#option div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border: 1px solid black;
+    height: 100px;
+    cursor: pointer;
+    padding: 3px 0px;
+}
+
+div#body {
+    /* overflow: auto; */
+}
+
+div#body h1 {
+    text-align: center;
+    color: slategray;
+    height: 60px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 3px 5px rgb(39, 39, 26);
+}
+
+div#body div {
+    /* display: none; */
+    /* height: 4em; */
+}
+
+div#body div.blog {
+    width: 100%;
+    /* min-height: 100%; */
+    /* height: 10em; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#body div.blog div {
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div.blog textarea {
+    width: 60%;
+    height: 12em;
+    resize: none;
+}
+
+div.blog span {
+    padding: 0.5em 1em;
+    font-size: 20px;
+    margin: 0.5em;
+    background-color: blue;
+    color: aliceblue;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+div.blog form {
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    background-color: aquamarine;
+}
+
+div.blog form button {
+    /* width: 10%; */
+    /* height: 10px; */
+    padding: 12px;
+    font-size: 1em;
+}
+
+input {
+    font-size: 1.5em;
+    width: 40vw;
+}

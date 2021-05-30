@@ -1,0 +1,343 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+* h1,
+* h2,
+* h3,
+* h4,
+* h5 {
+    font-weight: normal;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+* a:hover {
+    color: rgb(92, 184, 236);
+    transition: 0.1s ease-in-out;
+}
+
+header,
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+header {
+    background-color: #fa6501;
+    font-size: 12px;
+    padding: 20px 0px;
+}
+
+header div {
+    width: 20%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+header div img {
+    width: 192px;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    text-transform: capitalize;
+    width: 70%;
+    font-size: 44px;
+    margin: 15px auto;
+    color: #fa6501;
+    font-weight: bold;
+}
+
+section h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+}
+
+div.container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    column-gap: 10px;
+}
+
+div.container div.content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+div.container div.content2 div.header {
+    border-bottom: 2px solid #fa6501;
+    padding: 30px 0px;
+    color: #fa6501;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+div.container div.content2 span {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+div.container div.content2 div.catagory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+
+div.container div.content2 div.catagory img {
+    width: 80%;
+}
+
+div.container div.content2 div.catagory h4 {
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-top: 2em;
+    align-self: flex-start;
+    margin-left: 1em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+div.container div.content2 div.catagory h4 span {
+    display: inline-block;
+    background-color: #fa6501;
+    width: 64%;
+    height: 1px;
+    margin-bottom: 0px;
+}
+
+div.container div.content2 div.update,
+div.container div.content2 div.catagory div.folder {
+    width: 90%;
+    /* border-top: 1px solid #fa6501; */
+}
+
+div.container div.content2 div.catagory div.folder img {
+    width: 18px;
+    margin-right: 5px;
+}
+
+div.container div.content2 div.catagory div.folder div {
+    margin: 25px 0px;
+    padding: 5px 0px;
+    border-bottom: 1px solid #fa6501;
+    width: 100%;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+div.container div.content2 div.update {
+    background-color: #fa6501;
+    border-radius: 15px;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+div.container div.content2 div.update h2 {
+    text-transform: uppercase;
+    margin-top: 1.7em;
+}
+
+div.container div.content2 div.update img {
+    width: 76%;
+    margin-bottom: 18px;
+}
+
+div.container div.content2 div.update input {
+    width: 70%;
+    font-size: 2em;
+    border-radius: 20px;
+    padding: 2px 8px;
+    margin-bottom: 1em;
+    border-width: 0px;
+}
+
+div.container div.content2 div.update span {
+    font-size: 2em;
+    border-radius: 19px;
+    background-color: rgb(255, 255, 255);
+    padding: 3px 8px;
+    color: #fa6501;
+    cursor: pointer;
+}
+
+div.container div.content1 div.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 7em;
+}
+
+div.inner {
+    width: 90%;
+    margin: auto;
+}
+
+div.container div.content1 {
+    margin-bottom: 4em;
+}
+
+div.container div.content1 div.inner div.credential span img {
+    width: 12px;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 6px;
+}
+
+div.container div.content1 div.inner img {
+    width: 69%;
+}
+
+div.container div.content1 div.inner h3 {
+    margin: 1% 0px;
+    width: 95%;
+    text-align: center;
+    line-height: 1.7em;
+    font-size: 28px;
+}
+
+div.container div.content1 div.inner div {
+    margin: 10px;
+}
+
+div.container div.content1 div.inner span.read {
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: #fa6501;
+    margin: 15px 0px;
+    font-size: 24px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+div.container div.content1 div.inner div.upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+}
+
+div.container div.content1 div.inner div.lower {
+    padding: 12px 0px;
+    border-top: 1px solid #fa6501;
+    border-bottom: 1px solid #fa6501;
+}
+
+div.container div.content1 div.inner div.lower section {
+    width: 80%;
+}
+
+div.container div.content1 span#older {
+    font-size: 2em;
+    border-radius: 20px;
+    background-color: #fa6501;
+    color: rgb(255, 255, 255);
+    border-width: 0px;
+    padding: 5px 19px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width:1000px) {
+    div.container {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    div.container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    header div {
+        width: 39%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    section h2 {
+        width: 100%;
+    }
+    section h5 {
+        width: 100%;
+    }
+    div.container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    header div span {
+        font-size: 9px;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 450ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.left {
+    transform: translateX(-50%);
+}
+
+.right {
+    transform: translateX(50%);
+}
+
+.left,
+.right {
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+    opacity: 0;
+}
+
+.left.appear,
+.right.appear {
+    transform: translateX(0);
+    opacity: 1;
+}

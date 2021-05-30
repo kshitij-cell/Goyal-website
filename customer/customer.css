@@ -1,0 +1,212 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+* a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+* a:hover {
+    color: rgb(92, 184, 236);
+    transition: 0.1s ease-in-out;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(250, 101, 1);
+}
+
+div#love {
+    background-color: rgb(30, 51, 78);
+}
+
+div#love h3 {
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 250%;
+    padding-top: 4%;
+    color: white;
+}
+
+div#love p {
+    text-align: center;
+    font-size: 120%;
+    letter-spacing: 0.5px;
+    padding-top: 2%;
+    padding-bottom: 7%;
+    color: white;
+}
+
+div#love div#like {
+    text-align: center;
+}
+
+div#love div#like img {
+    height: 300px;
+    width: 400px;
+}
+
+@media only screen and (max-width:450px) {
+    div#love div#like img {
+        height: 250px;
+        width: 335px;
+    }
+}
+
+div#story {
+    background-color: white;
+}
+
+div#story h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: rgb(250, 101, 1);
+    padding: 3%;
+    padding-bottom: 1%;
+}
+
+div#story p {
+    text-align: center;
+}
+
+div#story div.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+div#story div.row {
+    padding-top: 10%;
+}
+
+div#story div.detail {
+    margin: 35px 10px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    box-shadow: 0 0 7px rgb(54, 42, 42);
+}
+
+div.detail img {
+    width: 95%;
+    transform: translate(-8px, -25px);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+div.detail p {
+    margin: 10px 20px;
+    font-size: .8em;
+}
+
+@media only screen and (max-width:800px) {
+    div#story div.detail {
+        display: flex;
+        flex-wrap: wrap;
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    div#story div.detail {
+        width: 65%;
+        /* flex-direction: column; */
+    }
+    /* div.detail img {
+        width: 75%;
+    } */
+}
+
+div#last {
+    background-color: rgb(233, 251, 253);
+}
+
+div#last div#head {
+    text-align: center;
+    padding-top: 5%;
+}
+
+div#last div#head p {
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(250, 101, 1);
+}
+
+div#last div#head p span {
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div#last div#free {
+    text-align: center;
+}
+
+div#last div#free button {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 1%;
+    margin: 3%;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+    background-color: rgb(250, 101, 1);
+    border-style: none;
+    cursor: pointer;
+}
+
+div#last div#tree {
+    text-align: center;
+}
+
+div#last div#tree img {
+    height: 350px;
+    width: 300px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 450ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.left {
+    transform: translateX(-50%);
+}
+
+.right {
+    transform: translateX(50%);
+}
+
+.left,
+.right {
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+    opacity: 0;
+}
+
+.left.appear,
+.right.appear {
+    transform: translateX(0);
+    opacity: 1;
+}
